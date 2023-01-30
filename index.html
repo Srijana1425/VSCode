@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Studio Code| Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body >
+<!-- FIRST PART -->
+    <nav class="flex flex-row gap-3 bg-[#2C2C32] items-center">
+        <div class="pl-20 ml-19">
+            <img 
+            src="./image/icon.png"
+            alt="icon"
+            class="w-7 ml-20 cursor-pointer">
+        </div>
+        <div>
+            <ul class="flex flex-row gap-4 items-center text-white">
+                <li class="text-white-400 text-xl hover:text-white cursor-pointer">Visual Studio Code</li>
+                <li class="text-stone-400 font-small hover:text-white cursor-pointer">Docs</li>
+                <li class="text-stone-400 font-small hover:text-white cursor-pointer">Updates</li>
+                <li class="text-stone-400 font-small hover:text-white cursor-pointer">Blog</li>
+                <li class="text-stone-400 font-small hover:text-white cursor-pointer">API</li>
+                <li class="text-stone-400 font-small hover:text-white cursor-pointer">Extensions</li>
+                <li class="text-stone-400 font-small hover:text-white cursor-pointer">FAQ</li>
+                <li class="text-stone-400 font-small hover:text-white cursor-pointer">Learn</li>
+            </ul>
+        </div>
+        <div class="flex flex-row ml-20"> 
+               <form action="">                
+                <div class="relative">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-8 ml-20 absolute rotate-90 mt-3 items-center stroke-white stroke-2 ">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg> 
+                    <input 
+                    type="text"
+                    name="Search Docs"
+                    placeholder="Search Docs"
+                    class=" ml-20 py-4 pl-7 bg-[#404040] hover:bg-neutral-600 placeholder:text-white">
+                </div>
+                </form>
+                <div class="relative ">
+                <svg class="h-5 w-5 mt-4 ml-3 text-white absolute mb-5"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <line x1="12" y1="5" x2="12" y2="19" />  <polyline points="19 12 12 19 5 12" /></svg>
+                <svg class="h-9 w-5 mt-4 ml-3 text-white absolute "  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <line x1="5" y1="12" x2="19" y2="12" /></svg>
+                <button class="px-6 py-4 pl-9 bg-[#2563eb] subpixel-antialiased hover:bg-[#1e40af] text-white"> Download</button>
+                </div>
+        </div>
+    </nav>  
+        <div class="border:border-black py-2 bg-black text-white italic text-center font-semibold">
+            <p><marquee> This website is for <span style="color:#5DA3FA">education</span> purpose only</marquee></p>
+        </div>
+
+
+<!-- SECOND PART -->
+<!-- Left --> 
+<second class="flex flex-row bg-[#2C2C32]">
+<div class="text-center ml-20 pl-20 mt-20 -mr-10">
+    <h1 class="text-5xl font-light text-white">Code editing.<br><span class="text-5xl font-normal">Redefined.</span></h1>
+    <h2 class=" pt-3 text-lg font-normal text-[#A3ABAD]">Free.Built on open source.Runs everywhere</h2>
+    <div class="mt-6 flex flex-row ml-10">
+    <button class="px-7 pt-2 pb-1 mr-0.5 bg-[#2563eb] hover:bg-[#1d4ed8] text-white"><span class="font-semibold text-lg">Download for Windows</span><br><span class=" text-sm font-normal">Stable build</span></button>
+    <button class="bg-[#2563eb] hover:bg-[#1d4ed8] px-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 stroke-white stroke-2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>              
+        </button>
+    </div>
+    <div class="mt-3 text-white rounded-lg mx-9 py-2 px-3 border-black bg-[#25252B] text-sm ">
+        <p><span class="text-[#058BDD]">Web</span><span class="text-[#A3ABAD]">,</span><span class="text-[#058BDD]"> Insiders edition</span><span class="text-[#A3ABAD]">, or</span> <span class="text-[#058BDD]">Other platforms</span></p>
+    </div>
+    <div class="text-xs mt-4 font-light">
+        <p class="text-[#A3ABAD]">By using VS code,you agree to its<br><span class="text-[#058BDD]">license and private statement.</span></p>
+    </div>
+</div>    
+<!-- right -->
+<div class="scale-75 -mt-10 pt-7">
+    <img src="./image/tailwind.png" alt="image" class=" border-black shadow-2xl">
+</div>
+</second>
+
+
+<!-- THIRD PART -->
+<third class="flex flex-row items-center justify-center mt-5 gap-20 ml-10 mr-10 ">
+    <!-- intellisense -->
+    <div>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" x="0" y="0" viewBox="0 0 48 48" style="enable-background:new 0 0 512 512" xml:space="preserve" class="w-14 mr-40"><g><g><g><g><path d="m29.7 43h-11.4c-.6 0-1-.4-1-1v-5.6c0-4.2-1.6-8.5-4.5-11.9-2.6-3.1-3.7-6.9-3.3-10.9.7-7.1 6.6-12.7 13.8-13.1 8.4-.5 15.5 6.3 15.5 14.6 0 3.4-1.2 6.7-3.4 9.3-3 3.6-4.6 7.9-4.6 12.2v5.4c-.1.6-.5 1-1.1 1zm-10.4-2h9.4v-4.4c0-4.7 1.8-9.5 5-13.5 1.9-2.3 2.9-5.1 2.9-8 0-7.2-6.1-13-13.4-12.6-6.1.4-11.2 5.2-11.8 11.3-.4 3.4.7 6.8 2.9 9.4 3.2 3.9 5 8.6 5 13.2z" fill="#000000" data-original="#000000" class=""></path></g><g><path d="m24 47.5c-3 0-5.5-2.4-5.6-5.4v-1h11.2v1c-.1 3-2.6 5.4-5.6 5.4zm-3.4-4.5c.5 1.4 1.8 2.5 3.4 2.5s2.9-1 3.4-2.5z" fill="#000000" data-original="#000000" class=""></path></g><g><g><path d="m17.7 32.2h12.5v2h-12.5z" fill="#000000" data-original="#000000" class=""></path></g><g><path d="m18.2 36.5h11.7v2h-11.7z" fill="#000000" data-original="#000000" class=""></path></g></g></g><g><g><path d="m29.7 43h-11.4c-.6 0-1-.4-1-1v-5.6c0-4.2-1.6-8.5-4.5-11.9-2.6-3.1-3.7-6.9-3.3-10.9.7-7.1 6.6-12.7 13.8-13.1 8.4-.5 15.5 6.3 15.5 14.6 0 3.4-1.2 6.7-3.4 9.3-3 3.6-4.6 7.9-4.6 12.2v5.4c-.1.6-.5 1-1.1 1zm-10.4-2h9.4v-4.4c0-4.7 1.8-9.5 5-13.5 1.9-2.3 2.9-5.1 2.9-8 0-7.2-6.1-13-13.4-12.6-6.1.4-11.2 5.2-11.8 11.3-.4 3.4.7 6.8 2.9 9.4 3.2 3.9 5 8.6 5 13.2z" fill="#000000" data-original="#000000" class=""></path></g><g><path d="m24 47.5c-3 0-5.5-2.4-5.6-5.4v-1h11.2v1c-.1 3-2.6 5.4-5.6 5.4zm-3.4-4.5c.5 1.4 1.8 2.5 3.4 2.5s2.9-1 3.4-2.5z" fill="#000000" data-original="#000000" class=""></path></g><g><g><path d="m17.7 32.2h12.5v2h-12.5z" fill="#000000" data-original="#000000" class=""></path></g><g><path d="m18.2 36.5h11.7v2h-11.7z" fill="#000000" data-original="#000000" class=""></path></g></g></g></g></g></svg>   
+        <p class="pt-2 pb-5 font-normal text-lg">IntelliSense</p>      
+    </div>
+    <!-- run and bug -->
+    <div class="relative">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" x="0" y="0" viewBox="0 0 32 32" style="enable-background:new 0 0 512 512" xml:space="preserve" class="w-14 ml-1 mr-40 stroke- stoke-gray-500 hover:sto]roke-red-500"><g><g id="_01-Play" data-name="01-Play"><path d="m7.33 30a3.33 3.33 0 0 1 -3.33-3.33v-21.29a3.38 3.38 0 0 1 3.38-3.38 3.23 3.23 0 0 1 1.62.45l17.13 9.92a3.65 3.65 0 0 1 .12 6.26l-17.15 10.86a3.34 3.34 0 0 1 -1.77.51zm0-26a1.38 1.38 0 0 0 -1.33 1.38v21.29a1.34 1.34 0 0 0 1.33 1.33 1.31 1.31 0 0 0 .67-.21l17.23-10.85a1.66 1.66 0 0 0 -.06-2.84l-17.17-9.92a1.28 1.28 0 0 0 -.62-.18z" fill="#000000" data-original="#000000" class=""></path></g></g></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class="w-11 absolute -mt-9 "><circle r="256" cx="256" cy="256" fill="#ffffff" shape="circle" transform="matrix(0.62,0,0,0.62,97.28,97.28)"></circle><g transform="matrix(0.7,0,0,0.7,76.80301551818849,76.80387611389162)"><path d="m463.55 272.13h-63.55v-48.2q0-4.32-.27-8.47c29.57-27.88 32.25-64.63 32.27-103 0-8.61-6.64-16-15.25-16.41a16 16 0 0 0 -16.75 15.95c0 28-1.86 48.15-9.9 63.84-19.22-41.15-65.78-63.91-134.1-63.91-39.8 0-74.19 9.13-99.43 26.39-14.9 10.19-26.2 22.91-33.7 37.72-8.87-15.39-10.87-35.04-10.87-63.58 0-8.61-6.6-16-15.2-16.44a16 16 0 0 0 -16.8 15.98c0 37.63 2.61 73.73 32.44 101.63q-.43 5.06-.44 10.3v48.2h-63.55c-8.61 0-16 6.62-16.43 15.23a16 16 0 0 0 16 16.77h64v15.87a143.32 143.32 0 0 0 10.39 53.69c-25.67 22.95-42.23 48.31-42.41 89.65 0 8.74 6.62 16.3 15.36 16.65a16 16 0 0 0 16.64-15.99c0-27.66 9.1-44.71 26.17-61.32a144.37 144.37 0 0 0 81.83 56.74 16 16 0 0 0 20-15.49v-251.48c0-8.61 6.62-16 15.23-16.43a16 16 0 0 1 16.77 15.98v251.93a16 16 0 0 0 20 15.49 144.4 144.4 0 0 0 81.82-56.74c17 16.54 26.09 33.52 26.17 60.95a16.27 16.27 0 0 0 15.1 16.37 16 16 0 0 0 16.91-16c0-41.68-16.6-67.23-42.39-90.31a143.32 143.32 0 0 0 10.39-53.69v-15.87h64a16 16 0 0 0 16-16.77c-.42-8.61-7.84-15.23-16.45-15.23z" fill="#000000" data-original="#000000" class=""></path><path d="m321.39 104 .32.09c13.57 3.8 25.07-10.55 18.2-22.85a95.86 95.86 0 0 0 -83.7-49.24h-.42a95.87 95.87 0 0 0 -84.19 50.13c-6.84 12.58 5.14 27 18.84 22.86 19.71-6 41.79-9.06 65.56-9.06 24.09 0 46.09 2.72 65.39 8.07z" fill="#000000" data-original="#000000" class=""></path></g></svg>
+        <p class="pt-2 pb-5 font-normal text-lg">Run and Debug</p>
+    </div>
+    <!-- built-in-git -->
+    <div>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class="w-14 mr-40"><g><path d="m416 160c0-35.3-28.7-64-64-64s-64 28.7-64 64c0 29.4 20 54.3 47 61.7-5.8 38.7-37.8 47.4-87.1 57.6-23.9 5-48.7 10.1-68 21.8-1.4.8-2.7 1.7-3.9 2.5v-145.6c27.6-7.1 48-32.2 48-62 0-35.3-28.7-64-64-64s-64 28.7-64 64c0 29.8 20.4 54.9 48 62v196c-27.6 7.1-48 32.2-48 62 0 35.3 28.7 64 64 64s64-28.7 64-64c0-29.3-19.7-54-46.6-61.6 6.2-27.6 33.4-34.7 77.1-43.8 26-5.4 52.9-10.9 74.4-24.7 22.4-14.4 35.2-35.8 38.4-63.8 27.9-6.8 48.7-32.1 48.7-62.1zm-288-64c0-17.6 14.4-32 32-32s32 14.4 32 32-14.4 32-32 32-32-14.4-32-32zm64 320c0 17.6-14.4 32-32 32s-32-14.4-32-32 14.4-32 32-32 32 14.4 32 32zm160-224c-17.6 0-32-14.4-32-32s14.4-32 32-32 32 14.4 32 32-14.4 32-32 32z" fill="#000000" data-original="#000000" class=""></path></g></svg>
+        <p class="pt-2 pb-5 font-normal text-lg">Built-in-Git</p>
+    </div>
+    <!-- extensions -->
+  <div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" x="0" y="0" viewBox="0 0 32 32" style="enable-background:new 0 0 512 512" xml:space="preserve" class="w-14"><g><g id="extension"><path d="m12 5h-10a1 1 0 0 0 -1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-10a1 1 0 0 0 -1-1zm-1 10h-8v-8h8zm19.778-6.707-7.071-7.071a1 1 0 0 0 -1.414 0l-7.071 7.071a1 1 0 0 0 0 1.414l7.071 7.071a1 1 0 0 0 1.414 0l7.071-7.071a1 1 0 0 0 0-1.414zm-7.778 6.364-5.657-5.657 5.657-5.657 5.657 5.657zm-11 4.343h-10a1 1 0 0 0 -1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-10a1 1 0 0 0 -1-1zm-1 10h-8v-8h8zm15-10h-10a1 1 0 0 0 -1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-10a1 1 0 0 0 -1-1zm-1 10h-8v-8h8z" fill="#000000" data-original="#000000" class=""></path></g></g></svg>
+    <p class="pt-2 pb-5 font-normal text-lg">Extensions</p>
+  </div>
+</third>
+
+
+<!-- FOURTH PART -->
+<fourth class="pt-20 pb-10 gap-5 flex justify-center bg-[#F5F5F5]">
+<!-- arrow -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class="w-6 cursor-pointer"><g transform="matrix(-1,1.2246467991473532e-16,-1.2246467991473532e-16,-1,511.99998474121105,511.99999999999994)">
+    <g>
+        <g>
+            <polygon points="166.124,0 89.876,76.257 269.619,256 89.876,435.743 166.124,512 422.124,256" fill="#6b6262" data-original="#000000" class=""></polygon>
+        </g>
+    </g>
+</svg>
+<!-- first image -->
+    <div class="flex flex-row gap-3">
+        <div>
+            <img src="./fourth icons/Una.jpg" alt="image1" class=" w-16 rounded-full shadow-md shadow-gray-400 cursor-pointer">
+        </div>
+        <!-- name and icon -->
+        <div class="flex flex-row gap-4">
+            <div><p><span class="text-sm font-bold hover:text-blue-600 cursor-pointer">Una Kravets </span><span class="text-xs text-gray-500">@Una</span><br>VS <spam class="text-blue-600 cursor-pointer">@Code</spam> does so many things<br> right. I'm contantly impressed by<br> the UX, and customizing<br>
+                workspace / user preferences is <br>no exception. &#128588;&#128175; It just keeps<br> getting better &#129505; </p></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" x="0" y="0" viewBox="0 0 100 100" style="enable-background:new 0 0 512 512" xml:space="preserve" class="w-5"><g><path id="_x30_4.Twitter" d="m89.9 25.2c-3 1.3-6.1 2.2-9.4 2.6 3.4-2 6-5.2 7.2-9.1-3.2 1.9-6.7 3.2-10.4 4-3-3.2-7.3-5.2-12-5.2-9.1 0-16.4 7.4-16.4 16.4 0 1.3.1 2.5.4 3.7-13.6-.6-25.6-7.2-33.7-17.1-5.8 10.4.7 19 5 21.9-2.6 0-5.2-.8-7.4-2 0 8.1 5.7 14.8 13.1 16.3-1.6.5-5.2.8-7.4.3 2.1 6.5 8.2 11.3 15.3 11.4-5.6 4.4-13.8 7.9-24.3 6.8 7.3 4.7 15.9 7.4 25.2 7.4 30.2 0 46.6-25 46.6-46.6 0-.7 0-1.4-.1-2.1 3.4-2.5 6.2-5.4 8.3-8.7z" fill="#999898" data-original="#000000" class=""></path></g>
+            </svg></p></div>
+        </div>
+    </div>
+<!-- second image -->
+    <div class="flex flex-row gap-3">
+        <div>
+            <img src="./fourth icons/jadbox.jpg" alt="image2" class="w-16 rounded-full shadow-md shadow-gray-400 cursor-pointer">
+        </div>
+        <!-- name and icon -->
+        <div class="flex flex-row gap-4">
+            <div><p><span class="text-sm font-bold hover:text-blue-600 cursor-pointer">Jonathan Dunlap </span><span class="text-xs text-gray-500">@jadbox</span><br>VS Code will have deep remote<br>development.You can connect to <br>a container running a different <br>OS and use any VS Code plugins, <br>linting, debugging for that <br>environment. &#128293;&#128293;&#128293;</b></p></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" x="0" y="0" viewBox="0 0 100 100" style="enable-background:new 0 0 512 512" xml:space="preserve" class="w-5"><g><path id="_x30_4.Twitter" d="m89.9 25.2c-3 1.3-6.1 2.2-9.4 2.6 3.4-2 6-5.2 7.2-9.1-3.2 1.9-6.7 3.2-10.4 4-3-3.2-7.3-5.2-12-5.2-9.1 0-16.4 7.4-16.4 16.4 0 1.3.1 2.5.4 3.7-13.6-.6-25.6-7.2-33.7-17.1-5.8 10.4.7 19 5 21.9-2.6 0-5.2-.8-7.4-2 0 8.1 5.7 14.8 13.1 16.3-1.6.5-5.2.8-7.4.3 2.1 6.5 8.2 11.3 15.3 11.4-5.6 4.4-13.8 7.9-24.3 6.8 7.3 4.7 15.9 7.4 25.2 7.4 30.2 0 46.6-25 46.6-46.6 0-.7 0-1.4-.1-2.1 3.4-2.5 6.2-5.4 8.3-8.7z" fill="#999898" data-original="#000000" class=""></path></g>
+            </svg></p></div>
+        </div>
+    </div>
+<!-- third image -->
+    <div class="flex flex-row gap-3">
+        <div>
+            <img src="./fourth icons/PKodmad (1).jpg" alt="image3" class="w-16 rounded-full shadow-md shadow-gray-400 cursor-pointer">
+        </div>
+        <!-- name and icon -->
+        <div class="flex flex-row gap-4">
+            <div><p><span class="text-sm font-bold hover:text-blue-600 cursor-pointer">Pavithra Kodmad </span><span class="text-xs text-gray-500">@PKodmad</span><br>VS Code is my most used and <br> favorite editor. I love being able <br>to customize the editor -<br>changing the layout, the icons,<br>front and color scheme is so<br>easy!</p></div>
+            <div><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" x="0" y="0" viewBox="0 0 100 100" style="enable-background:new 0 0 512 512" xml:space="preserve" class="w-5"><g><path id="_x30_4.Twitter" d="m89.9 25.2c-3 1.3-6.1 2.2-9.4 2.6 3.4-2 6-5.2 7.2-9.1-3.2 1.9-6.7 3.2-10.4 4-3-3.2-7.3-5.2-12-5.2-9.1 0-16.4 7.4-16.4 16.4 0 1.3.1 2.5.4 3.7-13.6-.6-25.6-7.2-33.7-17.1-5.8 10.4.7 19 5 21.9-2.6 0-5.2-.8-7.4-2 0 8.1 5.7 14.8 13.1 16.3-1.6.5-5.2.8-7.4.3 2.1 6.5 8.2 11.3 15.3 11.4-5.6 4.4-13.8 7.9-24.3 6.8 7.3 4.7 15.9 7.4 25.2 7.4 30.2 0 46.6-25 46.6-46.6 0-.7 0-1.4-.1-2.1 3.4-2.5 6.2-5.4 8.3-8.7z" fill="#999898" data-original="#000000" class=""></path></g>
+            </svg></p></div>
+        </div>
+    </div>
+<!-- arrow -->
+<div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class="w-6 pt-16"><g>
+    <g>
+        <g>
+            <polygon points="166.124,0 89.876,76.257 269.619,256 89.876,435.743 166.124,512 422.124,256" fill="#6b6262" data-original="#000000" class="cursor-pointer hover:stroke-blue-500"></polygon>
+        </g>
+    </g>
+    </svg>
+</div>
+</fourth>
+
+<!-- FIVTH PART -->
+<fivth >
+<!-- intelliSense -->
+    <div class="flex flex-row pt-20 ml-40 gap-40 pb-10">
+        <div>
+            <img src="./fifth icon/home-intellisense.svg" alt="home-intellisense">
+        </div>
+        <div>
+            <p class="mb-10 text-2xl font-light">Meet IntelliSense.</p>
+            <p style="line-height: 2.5em;">Go beyond syntax highlighting and autocomplete with IntelliSense, which<br>provides smart completions based on variable types, function definitions, and<br>imported modules.</p>
+        </div>
+    </div>
+<!-- Debugging -->
+<div class="flex flex-row pt-20 bg-[#F5F5F5] gap-40 pl-40 pb-10">
+    <div>
+        <p class="mb-10 text-2xl font-light">Print statement debugging is a thing of the past.</p>
+        <p style="line-height: 2.5em;">Debug code right from the editor. Launch or attach to your running apps and <br>debug with break points, call stacks, and an interactive console.</p>
+    </div>
+    <div>
+        <img src="./fifth icon/home-debug.svg" alt="debug">
+    </div>
+</div>
+<!-- Git -->
+<div class="flex flex-row pt-20 gap-40 pl-40 pb-10">
+    <div>
+        <img src="./fifth icon/home-git.svg" alt="git">
+    </div>
+    <div>
+        <p class="mb-10 text-2xl font-light">Git commands built-in.</p>
+        <p style="line-height: 2.5em;">Working with Git and other SCM providers has never been easier. Review diffs,<br>stage files, and make commits right from the editor. Push and pull from any<br>hosted SCM service. 
+        </p>
+    </div>
+</div>
+<!-- Extension -->
+<div class="flex flex-row pt-20 gap-40 pl-40 pb-20 bg-[#F5F5F5]">
+    <div>
+        <p class="mb-10 text-2xl font-light">Extensible and customizable.</p>
+        <p style="line-height: 2.5em;">Want even more features? Install extensions to add new languages, themes,<br>debuggers, and to connect to additional services. Extensions run in separate <br>processes, ensuring they won't slow down your editor. <span class="text-blue-700 cursor-pointer">Learn more about <br>extensions.</span></p>
+    </div>
+    <div class="w-80 cursor-pointer">
+        <img src="./fifth icon/Hundreds-of-Extensions.png" alt="extension">
+    </div>
+</div>
+<!-- Deploy and confidence -->
+<div class="flex flex-row pt-20 gap-40 pl-40 pb-10">
+    <div>
+        <img src="./fifth icon/home-azure.svg" alt="">
+    </div>
+    <div>
+        <p class="mb-10 text-2xl font-light">Deploy with confidence and ease </p>
+        <p style="line-height: 2.5em;">With <span class="text-blue-700 cursor-pointer">Microsoft Azure </span>you can deploy and host your React, Angular, Vue, Node,<br>Python (and more!) sites, store and query relational and document based data,<br>and scale with serverless computing, all with ease, <span class="text-blue-700 cursor-pointer">from within VS Code.</span></p>
+    </div>
+</div>
+</fivth>
+
+<!-- sixth part -->
+<sixth>
+    <div class="pt-20 bg-[#F5F5F5] pb-10">
+    <div class="text-3xl font-light">
+        <h1 class="flex justify-center">VS Code for</h1>
+    </div>
+<!-- icons -->
+<div class=" flex flex-row pt-10 justify-center">
+    <img src="./icon/javascript.svg" alt="javascript"><p class="pr-10">Javascript</p>
+    <img src="./icon/python.svg" alt="[python"><p class="pr-20">Python</p>
+    <img src="./icon/java.svg" alt="java"><p class="pr-20">Java</p>
+    <img src="./icon/markdown.svg" alt="markdown"><p class="pr-10">Markdowmn</p>
+    <img src="./icon/typescript.svg" alt="typescript"><p class="pr-10">Typescript</p>
+    <img src="./icon/cpp.svg" alt="c++"><p class="pr-10">C/C++</p>
+</div>
+<div class=" flex flex-row pt-5 ml-60 pl-5">
+    <img src="./icon/json.svg" alt="json"><p class="pr-10 mr-8">JSON</p>
+    <img src="./icon/powershell.svg" alt="powershell"><p class="pr-10 mr-3">Ppwershell</p>
+    <img src="./icon/html.svg" alt="html/css"><p class="pr-10">HTML/CSS</p>
+    <img src="./icon/csharp.svg" alt="c"><p class="pr-10 mr-16">C#</p>
+    <img src="./icon/php.svg" alt="php"><p class="pr-10 mr-10">PHP</p>
+    <img src="./icon/yaml.svg" alt="yaml"><p class="pr-10">YAML</p>
+</div>
+<div class=" flex flex-row pt-5 justify-center cursor-pointer">
+    <p class="text-blue-700"><u>and many more languages on the Marketplace...</u></p>
+</div>
+<div class="flex justify-center coursor-pointer  pt-10">
+    <button class="bg-blue-700 hover:bg-blue-800 text-white font-semibold py-3 px-8  font-semibold text-lg">
+    Get Started Now
+    </button>
+</div>
+</div>
+</sixth>
+
+<!-- seventh -->
+<seventh class="flex flex-row gap-20 justify-center mt-10 mb-14">
+    <!-- window -->
+    <div class="mt-10 ">
+        <div>
+            <img src="./icon/windows-logo (1).png" alt="window" class="w-24 pb-5 ml-14">
+        </div>
+        <!-- button -->
+        <div>
+            <button class="bg-blue-700 hover:bg-blue-800 text-white font-semibold py-1 px-20 font-semibold text-lg relative">
+                <img src="./icon/download.svg" alt="icon" class="w-4 absolute stroke pt-2 pb-5">
+                <p class="pl-8">Windows</p>
+                <p2 class="text-xs font-normal ">Windows 8,10,11</p2>
+            </button>
+        </div>
+        <!-- info -->
+        <div>
+            <div class="pt-5">
+                <p><span class="text-sm font-semibold text-zinc-800"> User Installer</span><span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer ml-6 rounded-sm">x64</span> <span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">x86</span> <span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">Arm64</span></p>
+            </div>
+            <div>
+                <p><span class="text-sm font-semibold text-zinc-800"> System Installer</span><span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer ml-1.5 rounded-sm">x64</span> <span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">x86</span> <span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">Arm64</span></p>
+            </div>
+            <div>
+                <p><span class="text-sm font-semibold text-zinc-800 ml-10 mr-10"> .Zip</span><span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">x64</span> <span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">x86</span> <span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">Arm64</span></p>
+            </div>
+            <div class="mt-2">
+                <p><span class="text-sm font-semibold text-zinc-800 ml-10 mr-10 pl-1"> CLI</span><span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">x64</span> <span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">x86</span> <span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">Arm64</span></p>
+            </div>
+        </div>
+    </div>
+
+<!--Linux-->
+<div class="mt-5">
+    <div>
+        <img src="./icon/linux-logo (1).png" alt="window" class="w-24 pb-5 ml-20">
+    </div>
+    <!-- button -->
+   <div class="flex flex-row">
+    <div class="pr-1">
+        <button class="bg-blue-700 hover:bg-blue-800 text-white font-semibold py-1 px-4 font-semibold text-lg relative">
+            <img src="./icon/download.svg" alt="icon" class="w-4 absolute stroke pt-2 pb-5 ml-4">
+            <p class="pl-10">.deb</p>
+            <p2 class="text-xs font-normal ">Debian, Ubuntu</p2>
+        </button>
+    </div>
+    <div>
+        <button class="bg-blue-700 hover:bg-blue-800 text-white font-semibold py-1 px-4 font-semibold text-lg relative">
+            <img src="./icon/download.svg" alt="icon" class="w-4 absolute stroke pt-2 pb-5 ml-5">
+            <p class="pl-4">.rpm</p>
+            <p2 class="text-xs font-normal ">Red Hat, Fedora, SUSE</p2>
+        </button>
+    </div>
+   </div>
+    <!-- info -->
+    <div>
+        <div class="pt-5">
+            <p><span class="text-sm font-semibold text-zinc-800 ml-14"> .deb</span><span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer ml-2 rounded-sm">x64</span> <span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">Arm32</span> <span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">Arm64</span></p>
+        </div>
+        <div>
+            <p><span class="text-sm font-semibold text-zinc-800 ml-14"> .rpm</span><span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer ml-1.5 rounded-sm">x64</span> <span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">Aram32</span> <span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">Arm64</span></p>
+        </div>
+        <div>
+            <p><span class="text-sm font-semibold text-zinc-800 ml-12"> .tar.gz</span><span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer ml-1.5 rounded-sm">x64</span> <span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">Aram32</span> <span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">Arm64</span></p>
+        </div>
+        <div>
+            <p><span class="text-sm font-semibold text-zinc-800 ml-10 mr-3 ml-12">Snap</span><span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm ">Snap Store</span></p>
+        </div>
+        <div class="mt-2">
+            <p><span class="text-sm font-semibold text-zinc-800 ml-10 mr-5 pl-3"> CLI</span><span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">x64</span> <span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">Arm32</span> <span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">Arm64</span></p>
+        </div>
+    </div>
+</div>
+
+ <!-- Mac -->
+ <div class="mt-4">
+    <div>
+        <img src="./icon/apple-logo (1).svg" alt="window" class="w-24 pb-5 ml-14">
+    </div>
+    <!-- button -->
+    <div>
+        <button class="bg-blue-700 hover:bg-blue-800 text-white font-semibold py-1 px-20 font-semibold text-lg relative">
+            <img src="./icon/download.svg" alt="icon" class="w-4 absolute stroke pt-2 pb-5">
+            <p class="pl-8">Mac</p>
+            <p2 class="text-xs font-normal ">macOS 10.11+</p2>
+        </button>
+    </div>
+    <!-- info -->
+    <div>
+        <div class="pt-5">
+            <p><span class="text-sm font-semibold text-zinc-800 ml-2">.zip</span><span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer ml-2 rounded-sm">Intel chip</span> <span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">Apple silicon</span> <span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">Universal</span></p>
+        </div>
+        <div class="mt-2">
+            <p><span class="text-sm font-semibold text-zinc-800 ml-2 mr-2"> CLI</span><span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">Intel chip</span> <span class="text-xs bg-blue-700 text-white px-0.5 cursor-pointer rounded-sm">Apple silicon</span></p>
+        </div>
+    </div>
+</div>
+</seventh>
+ 
+<!-- eighth -->
+<eighth>
+    <div class="bg-[#F5F5F5] pt-10 flex justify-center pb-20 ">
+    <div class="flex flex-row gap-60">
+        <div>
+            <h1 style="line-height: 2.5em;" class="text-xl font-semibold text-gray-700 ">Want new features sooner?</h1>
+            <h2 class="font-normal text-base ml-5">Get the<span class="text-blue-700"> Insiders build </span>instead.</h2>
+        </div>
+        <div>
+            <h1 class="text-xl text-gray-700 font-semibold">Use <span class="text-blue-700 ">vscode.dev </span>for quick edits<br><span class="ml-24">online!</span></h1>
+            <h2 style="line-height: 2.5em;">GitHub, Azure Repos, and local files.</h2>
+        </div>
+        </div>
+    </div>
+
+    <div class="bg-[#F5F5F5] ">
+        <div class=" pb-10">
+            <h1 style="line-height: 2.5em;" class="flex justify-center text-xs font-semibold text-gray-500">LICENSE AND PRIVACY TERMS</h1>
+           <p style="line-height: 2.5em;" class="ml-80 text-xs text-gray-500 pl-20">By downloading and using Visual Studio Code, you agree to the <span class="text-blue-700">license terms</span> and <span class="text-blue-700">privacy statement.</span>VS Code<br> automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not<br> to have this data sent please go see <span class="text-blue-700">How to Disable Crash Reporting</span> to learn how to disable it.</p>
+        </div>
+    </div>
+</eighth>
+
+<!-- nineth -->
+<nineth>
+    <div class="flex flex-row gap-80 bg-[#2C2C32] items-center pb-5">
+    <div class="flex flex-row gap-7 ml-40 text-xs pt-4">
+        <div>
+            <p class="text-white">Hello from Seattle.</p>
+        </div>
+        <div>
+            <p class="text-white">Follow @code</p>
+        </div>
+        <div class="flex flex-row gap-1">
+            <div>
+                <div class="ml-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512"  x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve" class="w-3 absolute pt-0.5"><g><path d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z" fill="#212121" data-original="#212121" class=""></path></g></svg>
+                </div>
+            <div class="bg-white rounded px-4">
+                <button class="font-bold pl-1">star</button>
+            </div>
+        </div>
+            <div class="bg-white rounded text-xs ">
+                <button class="font-bold">140,882</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-row gap-7 text-xs pt-8">
+        <div>
+            <p class="text-white">Support</p>
+        </div>
+        <div>
+            <p class="text-white">Privacy</p>
+        </div>
+        <div>
+            <p class="text-white">Terms of Use</p>
+        </div>
+        <div>
+            <p class="text-white">license</p>
+        </div>
+        <div>
+            <img src="./icon/microsoft-logo (1).png" alt="microsoft" class="w-24">
+            <p class="text-white pt-1">@ 2023 Microsoft</p>
+        </div>
+    </div>
+</div>
+</nineth>
+</body>
+</html>
